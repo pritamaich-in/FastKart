@@ -1,0 +1,27 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.admin .card {
+	border: 2px solid red;
+}
+
+.admin .card:hover {
+	background: #e2e2e2;
+	cursor: pointer;
+}
+
+.initial-price {
+	font-size: 10px;
+	font-style: italic;
+	text-decoration: line-through;
+	color: black;
+}
+
+.applied-discount {
+	font-size: 15px;
+	color: red;
+	border: 1px red solid;
+	border-radius: 5px;
+}

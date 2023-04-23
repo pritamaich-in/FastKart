@@ -1,0 +1,13 @@
+com\fastkart\servlets\RegisterServlet.class
+com\fastkart\dao\CategoryDao.class
+com\fastkart\JakartaRestConfiguration.class
+com\fastkart\servlets\LogoutServlet.class
+com\fastkart\resources\JakartaEE10Resource.class
+com\fastkart\dao\UserDao.class
+com\fastkart\dao\ProductDao.class
+com\fastkart\helper\FactoryProvider.class
+com\fastkart\entities\Category.class
+com\fastkart\entities\User.class
+com\fastkart\servlets\ProductOperationServlet.class
+com\fastkart\entities\Product.class
+com\fastkart\servlets\LoginServlet.class
