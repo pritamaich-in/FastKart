@@ -89,7 +89,7 @@
                                     <p class="card-text"><%=Helper.getFirst10Words(product.getProductDescription())%></p>
                                 </div>
                                 <div class="card-footer">
-                                    <button type="button" class="btn btn-success m-1">Add
+                                    <button type="button" class="btn btn-success m-1" onclick="addToCart(<%= product.getProductId()%>,'<%= product.getProductName()%>',<%= product.getPriceAfterDiscount()%>)">Add
                                         to cart</button>
                                     <button type="button" class="btn btn-outline-primary m-1"
                                             disabled>
